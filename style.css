@@ -1,0 +1,45 @@
+/* Custom style kapalo banda */
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background-color: #f8fafb;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+section h2 {
+  font-weight: 700;
+  color: #198754;
+}
+
+.card-title {
+  color: #198754;
+}
+
+footer {
+  letter-spacing: 1px;
+}
+
+/* Galeri hover effect */
+#galeri img {
+  transition: transform 0.3s, box-shadow 0.3s;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+#galeri img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 16px rgba(25,135,84,0.2);
+}
+
+/* Tombol utama */
+.btn-success {
+  box-shadow: 0 2px 6px rgba(25,135,84,0.15);
+  font-weight: 600;
+}
+
+/* Form Kontak */
+form .form-control:focus {
+  border-color: #198754;
+  box-shadow: 0 0 0 0.2rem rgba(25,135,84,.15);
+} 
